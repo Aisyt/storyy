@@ -1,0 +1,43 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        font-size: 1.92rem;
+        transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        border-radius: 76px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #000;
+
+        &:hover {
+            box-shadow:0 0 0 1px #47D3E5 !important;
+            color: #47D3E5 !important;
+        }
+    }
+
+    &--big {
+        padding: 2.5rem 5.7rem;
+        font-size: 1.9rem;
+        line-height: 7.6rem;
+        letter-spacing: 2.4px;
+    }
+
+    &--medium {
+        padding: 2rem 4.5rem;
+        font-size: 1.8rem;
+        line-height: 6.75rem;
+        letter-spacing: 2.25px;
+    }
+
+    &--small {
+        padding: 0 2.88rem;
+        font-size: 1.44rem;
+        line-height:4.78rem;
+        letter-spacing: 1.8px;
+        box-shadow: 0 0 0 1px #fff;
+        color: #ffffff !important;
+    }
+}
